@@ -29,7 +29,7 @@ class SignIn extends Component {
   render() {
     return (
         <div className="sign-in">
-          <h2>I already have an account</h2>
+          <h2 className='title'>I already have an account</h2>
           <span className="">Sign in with your email address</span> 
           <form onSubmit={this.handleSubmit}>
             <FormInput type='email' name='email' value={this.state.email} aria-label='email' handleChange={this.handleChange} label='Email' required />
